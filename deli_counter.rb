@@ -5,9 +5,9 @@ def line(katz_deli)
   puts "The line is currently empty."
   else
     current_line = []
-    other_deli.each do |people| 
+    other_deli.each do |people|
        
-       "The line is currently: #{index+1}" + ". " + "#{people}"
+      "The line is currently: #{index+1}" + ". " + "#{people}"
       current_line << customers
   end
 end
