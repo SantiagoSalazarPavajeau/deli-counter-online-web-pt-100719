@@ -26,7 +26,9 @@ def now_serving(katz_deli)
   puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{katz_deli.first}."
+    # .first acceses the first element in the array
     katz_deli.shift
+    # .shift removes the first element in the array
   end
 end
 
