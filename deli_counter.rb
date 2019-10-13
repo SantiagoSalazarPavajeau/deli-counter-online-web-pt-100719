@@ -4,10 +4,10 @@ def line(katz_deli)
   if katz_deli.empty?                   # if the array is empty it prints the line is empty
   puts "The line is currently empty."
   else
-    other_deli = []
-    i = 0
+    current_line = []
     other_deli.each do |people| 
-      customers= "The line is currently: #{index+1}" + ". " + "#{people}"
+       
+       "The line is currently: #{index+1}" + ". " + "#{people}"
       current_line << customers
   end
 end
