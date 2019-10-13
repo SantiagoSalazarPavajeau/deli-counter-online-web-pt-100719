@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, next_person)
   katz_deli.push(next_person)
-  puts "Welcome #{next_person}. You are number #{katz_deli.index(next_person)+1} in line."
+  puts "Welcome, #{next_person}. You are number #{katz_deli.index(next_person)+1} in line."
 end
 
 
