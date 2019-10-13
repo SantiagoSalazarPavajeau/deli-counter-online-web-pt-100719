@@ -22,7 +22,8 @@ def take_a_number(katz_deli, next_person)
 end
 
 def now_serving
-  
+  if katz_deli.empty?                  
+  puts "The line is currently empty."
 end
 
 
