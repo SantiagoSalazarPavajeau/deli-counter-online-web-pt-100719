@@ -13,7 +13,7 @@ end
 end
 
 def take_a_number(katz_deli, next_person)
-  current_line = []
+  katz_deli.push(next_person)
   katz_deli.each_with_index do |people, index|
     current_line.push(people)
     puts  "#{people} #{index+1}"
