@@ -21,7 +21,7 @@ def take_a_number(katz_deli, next_person)
   # .index returns the index integer
 end
 
-def now_serving
+def now_serving(katz_deli)
   if katz_deli.empty?                  
   puts "The line is currently empty."
 end
