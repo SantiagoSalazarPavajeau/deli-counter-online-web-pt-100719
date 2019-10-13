@@ -8,6 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |people, index|
       current_line.push("#{index+1}" + ". " + "#{people}")
     # each of the elements and index of the array are added to a new array in the form of strings
+    # so we took the information out of an initial array and manipulated it into a new string.
   end
   puts "The line is currently: " + current_line.join(" ")
   # we print out the new array as a string and add it to make the final phrase
@@ -20,6 +21,9 @@ def take_a_number(katz_deli, next_person)
   # .index returns the index integer
 end
 
+def now_serving
+  
+end
 
 
 
