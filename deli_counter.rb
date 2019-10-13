@@ -13,7 +13,9 @@ end
 end
 
 def take_a_number(katz_deli, next_person)
-  
+  current_line = []
+    katz_deli.each_with_index do |people, index|
+      puts "#{index+1}" + ". " + "#{people}")
 end
 
 
