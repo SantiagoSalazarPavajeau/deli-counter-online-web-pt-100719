@@ -14,8 +14,10 @@ end
 
 def take_a_number(katz_deli, next_person)
   current_line = []
-    katz_deli.each_with_index do |people, index|
-      puts "#{index+1}" + ". " + "#{people}")
+  katz_deli.each_with_index do |people, index|
+    current_line.push(people)
+    puts  "#{people} #{index+1}"
+  end
 end
 
 
