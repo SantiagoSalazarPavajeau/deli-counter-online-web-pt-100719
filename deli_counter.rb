@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, next_person)
   katz_deli.push(next_person)
-  puts 
+  puts "Welcome #{next_person} "
 end
 
 
